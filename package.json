@@ -1,0 +1,31 @@
+{
+    "name": "upload-throw",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "parcel watch index.html --public-url ./ -d public",
+        "build": "parcel build index.html --public-url ./ -d public --no-source-maps"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-plugin-syntax-object-rest-spread": "^6.13.0",
+        "babel-plugin-transform-async-to-generator": "^6.24.1",
+        "babel-plugin-transform-class-properties": "^6.24.1",
+        "babel-plugin-transform-runtime": "^6.23.0",
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-react": "^6.24.1",
+        "parcel-bundler": "^1.7.1"
+    },
+    "dependencies": {
+        "axios": "^0.18.0",
+        "react": "^16.3.2",
+        "react-dom": "^16.3.2",
+        "react-dropzone": "^4.2.9",
+        "react-router-dom": "^4.2.2",
+        "recordrtc": "^5.4.6"
+    }
+}
